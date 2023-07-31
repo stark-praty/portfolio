@@ -1830,3 +1830,12 @@ body.is-preload #footer {
   display: flex;
   padding-left: 0px;
 }
+#projects h3{
+  margin-bottom: 0px;
+}
+#projects a.button{
+  display: flex;
+  margin-top: -40px;
+  margin-left: 415px;
+  padding-left: 20px;
+}
