@@ -1789,6 +1789,11 @@ body.is-preload #footer {
   opacity: 0;
 }
 
+article p{
+  text-align: justify; 
+  margin-top: -20px;
+}
+
 .button-odds {
   margin-right: 10px;
   border: none;
@@ -1831,4 +1836,16 @@ body.is-preload #footer {
   margin-top: -40px;
   margin-left: 415px;
   padding-left: 20px;
+}
+
+h3.readm{
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+article p.lang{
+  display: flex;
+  margin-top: -32px;
+  margin-left: 214px;
+  font-style: italic;
+  font-weight: 600;
 }
