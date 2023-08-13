@@ -1804,14 +1804,17 @@ article p{
   border: none;
 }
 .ulheaderprog {
-  display: flex;
   padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 11px;
+
 }
 .ulheaderprog li i {
   font-size: 25px;
   display: flex;
   justify-content: center;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .ulheaderprog li {
   height: 50px;
