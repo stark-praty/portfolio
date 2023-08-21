@@ -1838,9 +1838,10 @@ article p{
 h3.readm{
   margin-top: -10px;
   margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 article p.lang{
-  display: flex;
   margin-top: -32px;
   margin-left: 214px;
   font-style: italic;
