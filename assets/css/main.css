@@ -306,6 +306,10 @@ h6.major {
   width: max-content;
   padding-bottom: 0.5rem;
   margin: 0 0 2rem 0;
+  color: #ffffff;
+}
+h5.major {
+  font-size: 18px !important;
 }
 
 h1 {
@@ -315,13 +319,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   line-height: 1.4;
   letter-spacing: 0.5rem;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 
 h4 {
@@ -334,6 +338,16 @@ h5 {
 
 h6 {
   font-size: 0.6rem;
+}
+
+i {
+  font-size: 20px;
+}
+
+li {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 736px) {
@@ -588,6 +602,14 @@ input[type="radio"] {
   z-index: -1;
 }
 
+/* WORK */
+
+.work {
+  /* color: #ffffff; */
+}
+
+/* End WORK */
+
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
@@ -815,7 +837,8 @@ input[type="radio"] + label:before {
 }
 
 .image.main img {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 @media screen and (max-width: 736px) {
@@ -1249,7 +1272,7 @@ button {
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
- 
+
   background-size: auto, 256px 256px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
@@ -1422,7 +1445,6 @@ body.is-preload #bg:before {
 #header .logo .icon:before {
   font-size: 2rem;
 }
-
 
 #header .content {
   border-style: solid;
@@ -1651,7 +1673,7 @@ body.is-preload #header .content .inner {
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
-  max-width: 100%;
+  max-width: 300%;
   z-index: 3;
 }
 
@@ -1720,6 +1742,10 @@ body.is-preload #header .content .inner {
 
 #main article .close:active:before {
   background-color: rgba(255, 255, 255, 0.175);
+}
+
+#projects {
+  width: 1200px !important;
 }
 
 @media screen and (max-width: 736px) {
@@ -1791,9 +1817,39 @@ body.is-preload #footer {
   margin-top: -50px;
 }
 
-article p{
-  text-align: justify; 
+article p {
+  text-align: justify;
   margin-top: -20px;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+article p b {
+  font-weight: 700;
+}
+article p b a {
+  color: #ffffff;
+}
+article p b a:hover {
+  color: lightgray;
+}
+.card {
+  background-color: rgba(30, 30, 30, 0.3) !important;
+  margin-bottom: 50px;
+  margin-right: 45px;
+}
+.box-hover:hover {
+  box-shadow: 10px 10px 10px rgb(161 148 148 / 30%);
+  text-decoration: none;
+  width: 570px;
+  text-shadow: 2px 3px 3px grey;
+  font-weight: 700;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  margin-left: -10px;
 }
 
 .button-odds {
@@ -1810,7 +1866,6 @@ article p{
   display: flex;
   flex-wrap: wrap;
   row-gap: 11px;
-
 }
 .ulheaderprog li i {
   font-size: 25px;
@@ -1836,13 +1891,13 @@ article p{
   row-gap: 11px;
 }
 
-h3.readm{
+h3.readm {
   margin-top: -10px;
   margin-bottom: 0px;
   display: flex;
   flex-wrap: wrap;
 }
-article p.lang{
+article p.lang {
   margin-top: -32px;
   margin-left: 214px;
   font-style: italic;
