@@ -1504,6 +1504,7 @@ article p b a:hover {
 
 .card-title {
   margin-top: -30px !important;
+  letter-spacing: normal;
 }
 
 h3.readm {
@@ -1634,8 +1635,5 @@ article p.lang {
   }
   #contact h4{
     font-size: 0.8rem !important;
-  }
-  .card-title {
-    letter-spacing: normal;
   }
 }
