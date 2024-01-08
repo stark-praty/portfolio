@@ -822,41 +822,29 @@ button,
   white-space: nowrap;
 }
 
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
+
 button:hover,
 .button:hover {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active,
 button:active,
 .button:active {
   background-color: rgba(255, 255, 255, 0.175);
 }
 
-input[type="submit"].icon:before,
-input[type="reset"].icon:before,
-input[type="button"].icon:before,
+
 button.icon:before,
 .button.icon:before {
   margin-right: 0.5em;
 }
 
-input[type="submit"].fit,
-input[type="reset"].fit,
-input[type="button"].fit,
+
 button.fit,
 .button.fit {
   width: 100%;
 }
 
-input[type="submit"].small,
-input[type="reset"].small,
-input[type="button"].small,
 button.small,
 .button.small {
   font-size: 0.6rem;
@@ -864,9 +852,7 @@ button.small,
   line-height: 2.0625rem;
 }
 
-input[type="submit"].primary,
-input[type="reset"].primary,
-input[type="button"].primary,
+
 button.primary,
 .button.primary {
   background-color: #ffffff;
@@ -874,12 +860,7 @@ button.primary,
   font-weight: 600;
 }
 
-input[type="submit"].disabled,
-input[type="submit"]:disabled,
-input[type="reset"].disabled,
-input[type="reset"]:disabled,
-input[type="button"].disabled,
-input[type="button"]:disabled,
+
 button.disabled,
 button:disabled,
 .button.disabled,
@@ -889,9 +870,7 @@ button:disabled,
   opacity: 0.25;
 }
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
+
 button {
   line-height: calc(2.75rem - 2px);
 }
@@ -903,7 +882,7 @@ button {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   position: fixed;
   top: 0;
   left: 0;
@@ -1483,19 +1462,21 @@ article p b a:hover {
   height: 50px;
   width: 65px;
 }
-.netlogoi {
+.nologoi {
   width: fit-content !important;
-}
-.netlogoi span {
-  display: flex;
-  margin-top: 2px;
-}
-.ulheader {
-  padding-left: 0px;
+  height:0;
+  width: 0;
   display: flex;
   flex-wrap: wrap;
   row-gap: 11px;
 }
+
+/* .ulheader {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 11px;
+} */
 
 #projects p.card-text {
   font-size: 14px;
