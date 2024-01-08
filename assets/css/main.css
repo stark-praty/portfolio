@@ -1636,4 +1636,9 @@ article p.lang {
   #contact h4{
     font-size: 0.8rem !important;
   }
+
+  .readmore h2.major{
+    letter-spacing: 2px;
+    font-size: 17px !important;
+  }
 }
