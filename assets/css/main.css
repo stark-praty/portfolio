@@ -1517,6 +1517,13 @@ article p.lang {
   font-size: 17px !important;
 }
 
+video {
+  margin-top: -7px;
+  margin-bottom: -9px;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+
 @media screen and (max-width: 480px) {
 
   html,
@@ -1658,5 +1665,9 @@ article p.lang {
       margin-bottom: -29px;
       margin-top: -34px;
     }
+  }
+  video {
+    margin-top: -3px;
+    margin-bottom: 11px;
   }
 }
