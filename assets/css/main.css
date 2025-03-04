@@ -1503,19 +1503,35 @@ article p.lang {
   font-weight: 600;
 }
 
-#contact a {
-  text-decoration: none;
-  color: #ffffff;
-}
+#contact{
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  form{
+    margin-top: 25px;
 
-#contact p {
-  margin-top: -9px;
-}
-
-#contact h4 {
-  margin-top: 25px;
-  font-size: 17px !important;
-}
+    input, textarea{
+      margin-bottom: 3%;
+      background-color: #ffffffc2;
+    }
+    .button{
+      margin-bottom: 3%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    label{
+      color: #1a1a1a;
+      /* background-color: #ffffffc2; */
+    }
+    .ul{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+} 
 
 video {
   margin-top: -7px;
