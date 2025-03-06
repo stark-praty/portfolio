@@ -1517,10 +1517,20 @@ article p.lang {
     }
     .button{
       margin-bottom: 3%;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+      width: 100%;
+      align-items: center;
     }
+    .button:hover {
+      background-color: rgb(255, 255, 255);
+      color: #1a1a1a !important;
+      font-weight: bold;
+      border: #1a1a1a;
+    }
+    .row>*{
+      display: grid;
+      justify-items: center;
+    }
+    
     label{
       color: #1a1a1a;
       /* background-color: #ffffffc2; */
